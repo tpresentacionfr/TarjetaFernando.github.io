@@ -106,11 +106,4 @@ a {
     background-color: #075E54;  /* Color cuando el botón está siendo presionado */
 }
 
-/* Añadir un pequeño icono de WhatsApp al lado del texto */
-.whatsapp-btn::before {
-    content: url('https://upload.wikimedia.org/wikipedia/commons/6/60/WhatsApp_Logo_1.png');
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    vertical-align: middle;
-}
+
