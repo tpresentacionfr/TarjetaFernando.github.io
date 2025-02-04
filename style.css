@@ -66,3 +66,34 @@ body {
 .card-body a:hover {
     text-decoration: underline;
 }
+
+/* Estilos para el botón de WhatsApp */
+.whatsapp-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #25d366;  /* Color verde de WhatsApp */
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;  /* Cambio de color cuando pasas el mouse */
+}
+
+.whatsapp-btn:active {
+    background-color: #075E54;  /* Color cuando el botón está siendo presionado */
+}
+
+/* Añadir un pequeño icono de WhatsApp al lado del texto */
+.whatsapp-btn::before {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/6/60/WhatsApp_Logo_1.png');
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
