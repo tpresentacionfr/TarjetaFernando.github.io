@@ -56,6 +56,7 @@ body {
     text-align: center;
     font-size: 10px;
     color: #888;
+    margin-top: 20px; /* Agregado: Espacio entre el botón y este div */
 }
 
 .card-body a {
@@ -77,6 +78,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px; /* Espacio adicional entre el botón y el contenido anterior */
 }
 
 .whatsapp-btn::before {
