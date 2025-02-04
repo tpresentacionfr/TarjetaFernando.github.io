@@ -67,6 +67,21 @@ body {
     text-decoration: underline;
 }
 
+
+/* Centrar el botón en el contenedor */
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatsapp-btn::before {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/6/60/WhatsApp_Logo_1.png');
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;  /* Alineación vertical correcta con el texto */
+}
+
 /* Estilos para el botón de WhatsApp */
 .whatsapp-btn {
     display: inline-block;
@@ -79,7 +94,9 @@ body {
     text-decoration: none;
     text-align: center;
     transition: background-color 0.3s ease;
+    border: none;
 }
+
 
 .whatsapp-btn:hover {
     background-color: #128C7E;  /* Cambio de color cuando pasas el mouse */
