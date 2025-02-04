@@ -67,6 +67,10 @@ body {
     text-decoration: underline;
 }
 
+/* Quitar el subrayado de los enlaces */
+a {
+    text-decoration: none;  /* Esto elimina la línea azul debajo del texto */
+}
 
 /* Centrar el botón en el contenedor */
 a {
@@ -74,6 +78,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 .whatsapp-btn::before {
     content: url('https://upload.wikimedia.org/wikipedia/commons/6/60/WhatsApp_Logo_1.png');
     width: 20px;
@@ -97,7 +102,6 @@ a {
     border: none;
 }
 
-
 .whatsapp-btn:hover {
     background-color: #128C7E;  /* Cambio de color cuando pasas el mouse */
 }
@@ -105,5 +109,3 @@ a {
 .whatsapp-btn:active {
     background-color: #075E54;  /* Color cuando el botón está siendo presionado */
 }
-
-
